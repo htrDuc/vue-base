@@ -1,15 +1,11 @@
 <template>
-  <h1>
-    login
-  </h1>
+  <div>Login</div>
 </template>
 
-<script>
-export default {
-  name: "Login"
-}
+<script setup lang="ts">
+import { ref } from "vue";
+
+const test = ref<string>("hello");
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

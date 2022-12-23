@@ -1,14 +1,11 @@
 <template>
   <!-- Error page-->
   <div class="misc-wrapper">
-    <h1>Error page</h1>
+    <h1 class="p-2 text-3xl font-bold underline">Error page</h1>
   </div>
-<!-- / Error page-->
+  <!-- / Error page-->
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style lang="scss">
-</style>
+<style lang="scss"></style>
