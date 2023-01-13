@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd337c2-51b7-4da2-a146-47210798b43a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading/Loading.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugins/axios.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugins/interceptors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/useRootStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/error/Error404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/error/Error404.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/routes/error.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes/error.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/routes/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes/login.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/routes/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +25,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -66,12 +55,15 @@
     "last_opened_file_path": "/home/ducht/Desktop/vue-base/src",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/home/ducht/Desktop/vue-base/node_modules/prettier",
+    "settings.editor.selected.configurable": "reference.settings.grazie.pro",
     "ts.external.directory.path": "/home/ducht/Desktop/vue-base/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -82,10 +74,44 @@
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/router/routes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="npm run dev" />
+      <command value="npm run i" />
+      <command value="npm install eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import" />
+      <command value="yarn add eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/eslint-config-typescript eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue vue-eslint-parser -D" />
+      <command value="npm lint" />
+      <command value="npm run lint" />
+      <command value="npm i eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/eslint-config-typescript eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue vue-eslint-parser -D" />
+      <command value="npm run lint:js" />
+      <command value="npm i" />
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm dev">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint:js" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:js" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -96,6 +122,12 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint:js" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,6 +139,7 @@
       <updated>1671702856209</updated>
       <workItem from="1671702858535" duration="2733000" />
       <workItem from="1671763920550" duration="10060000" />
+      <workItem from="1672987511327" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1671704857084</created>

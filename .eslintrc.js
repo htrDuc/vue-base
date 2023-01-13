@@ -1,49 +1,25 @@
 module.exports = {
-  env: {
-    node: true,
+  root: true,
+  parser: "vue-eslint-parser",
+  parserOptions: {
+    parser: "@typescript-eslint/parser",
   },
   extends: [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/strongly-recommended",
     "eslint:recommended",
-    "plugin:vue/vue3-recommended",
-    "@vue/eslint-config-airbnb",
-    "plugin:vue/vue3-strongly-recommended",
+    "@vue/typescript/recommended",
     "prettier",
   ],
-  parserOptions: {
-    parser: "@babel/eslint-parser",
-  },
+  plugins: ["@typescript-eslint", "prettier"],
   rules: {
-    "global-require": 0,
-
-    semi: 0,
-    "max-len": "off",
-    "linebreak-style": "off",
-    camelcase: "off",
-    "arrow-parens": ["error", "as-needed"],
-    "vue/multiline-html-element-content-newline": "off",
-    "import/no-cycle": "off",
-    quotes: "off",
-    "no-param-reassign": "off",
-    "no-restricted-globals": "off",
-    "no-restricted-syntax": "off",
-    "arrow-parens": "off",
-    "comma-dangle": "off",
-    "import/prefer-default-export": "off",
-    "import/no-unresolved": "off",
-    "implicit-arrow-linebreak": "off",
-    "object-curly-newline": "off",
-    "consistent-return": "off",
-    "no-underscore-dangle": "off",
-    "vue/max-attributes-per-line": [
-      "error",
-      {
-        singleline: {
-          max: 4,
-        },
-        multiline: {
-          max: 4,
-        },
-      },
-    ],
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    semi: ["error", "always"],
+    "no-unused-vars": ["error", { "vars": "all" }],
+    'vue/multi-word-component-names': 'off'
   },
 };

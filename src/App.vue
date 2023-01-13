@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Loading from "./components/loading/Loading.vue";
+import LoadingComponent from "./components/loading/LoadingComponent.vue";
 </script>
 
 <template>
   <div>
-    <router-view></router-view>
-    <Loading></Loading>
+    <router-view> </router-view>
+    <loading-component> </loading-component>
   </div>
 </template>
 

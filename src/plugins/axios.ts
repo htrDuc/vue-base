@@ -24,4 +24,4 @@ export const axiosInstance = axios.create({
 });
 
 export const $axios = axios;
-export const $axiosInstance = axiosInstance
+export const $axiosInstance = axiosInstance;

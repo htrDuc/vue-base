@@ -1,7 +1,7 @@
 <template>
   <div class="app-loading">
     <div class="loading">
-      <div class="bounceball"></div>
+      <div class="bounceball">{{ isLoading }}</div>
     </div>
   </div>
 </template>
@@ -11,7 +11,7 @@ import { storeToRefs } from "pinia";
 import useRootStore from "@store/useRootStore";
 
 const rootStore = useRootStore();
-const { isLoading} = storeToRefs(rootStore)
+const { isLoading } = storeToRefs(rootStore);
 </script>
 
 <style scoped></style>
